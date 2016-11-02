@@ -36,6 +36,7 @@ public class APMS {
 				}
 				com = commandCreator.createCommand();
 				com.execute();
+				commandCreator = null;
 				com = null;
 			}
 		} catch (Exception ex) {

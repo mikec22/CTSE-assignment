@@ -25,7 +25,7 @@ public class DepositSecurityCommandCreator extends CommandCreator {
 		if (!isFound) {
 			throw new RuntimeException("Security Not Found!");
 		}
-		System.out.println("Quantity to deposit:");
+		System.out.println("Quantity to withdraw:");
 		int quantity = kb.nextInt();
 		return new DepositSecurityCommand(security, quantity);
 	}
