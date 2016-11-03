@@ -5,7 +5,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.Vector;
 
-public class APMS {
+public class ASMS {
 
     private static AbstractList<Security> securities;
     private static Command com;
@@ -54,6 +54,8 @@ public class APMS {
                         commandCreator = new ExitCommandCreator();
                         break;
                     default:
+                        commandCreator = null;
+                        com = null;
                         System.out.println("Command not found");
                 }
                 com = commandCreator.createCommand();
@@ -62,19 +64,14 @@ public class APMS {
                 commandCreator = null;
                 com = null;
             }
-        } catch (InputMismatchException ex) {
-            System.out.println("Input not expect.");
-            //ex.printStackTrace();
-            com = null;
-            run();
-        } catch (NumberFormatException ex) {
+        } catch (InputMismatchException | NumberFormatException ex) {
             System.out.println("Input not expect.");
             //ex.printStackTrace();
             com = null;
             run();
         } catch (RuntimeException ex) {
             System.out.println(ex.getMessage());
-//            ex.printStackTrace();
+            //ex.printStackTrace();
             com = null;
             run();
         } catch (Exception ex) {
@@ -82,7 +79,7 @@ public class APMS {
         }
     }
 
-    private static AbstractList createList() {
+    private static AbstractList<Security> createList() {
         return new Vector();
     }
 
