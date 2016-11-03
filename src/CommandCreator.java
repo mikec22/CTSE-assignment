@@ -1,3 +1,3 @@
 public abstract class CommandCreator {
-	public abstract Command createCommand();
+    public abstract Command createCommand();
 }

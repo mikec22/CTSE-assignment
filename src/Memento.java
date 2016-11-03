@@ -1,3 +1,3 @@
 public interface Memento {
-	void restore();
+    public abstract void restore();
 }
