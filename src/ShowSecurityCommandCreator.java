@@ -1,13 +1,11 @@
-import Portfolio.Security;
-
 import java.util.AbstractList;
 import java.util.Scanner;
 
 public class ShowSecurityCommandCreator extends CommandCreator {
 
-    private AbstractList<Security> list;
+    private AbstractList list;
 
-    public ShowSecurityCommandCreator(AbstractList<Security> list) {
+    public ShowSecurityCommandCreator(AbstractList list) {
         this.list = list;
     }
 

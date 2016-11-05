@@ -8,12 +8,11 @@ public class CreateSecurityCommand extends UndoableCommand {
     private Security security;
     private String type;
 
-    public CreateSecurityCommand(AbstractList<Security> securities, String type) {
+    public CreateSecurityCommand(AbstractList securities, String type) {
         this.securities = securities;
         this.type = type;
     }
 
-    @Override
     public void execute() {
         SecurityCreator sc;
         if (type.equals("bo")) {
@@ -37,7 +36,6 @@ public class CreateSecurityCommand extends UndoableCommand {
         memento = createMemento();
     }
 
-    @Override
     public void undo() {
         memento.restore();
     }
