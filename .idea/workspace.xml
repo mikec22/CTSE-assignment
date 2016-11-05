@@ -25,7 +25,7 @@
       <file leaf-file-name="ASMS.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ASMS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="536">
               <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -130,8 +130,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -166,7 +167,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -678,18 +678,21 @@
       <workItem from="1478127072391" duration="23390000" />
       <workItem from="1478178244241" duration="1628000" />
       <workItem from="1478181668588" duration="160000" />
+      <workItem from="1478220635741" duration="87000" />
+      <workItem from="1478223374803" duration="636000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31274000" />
+    <option name="totallyTimeSpent" value="31997000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28224102" sideWeight="0.5052083" order="7" side_tool="true" content_ui="tabs" />
@@ -699,7 +702,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.184375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.184375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -710,7 +713,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -737,16 +739,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ASMS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ASMS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
@@ -917,14 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="21" column="5" selection-start-line="8" selection-start-column="8" selection-end-line="21" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BondV2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1126,183 +1110,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="318.0" y="710.0">com</node>
-            <node x="406.0" y="555.0">netscape</node>
-            <node x="441.75" y="400.0">SecurityCreator</node>
-            <node x="377.5" y="80.0">ListCommand</node>
-            <node x="423.0" y="785.0">APMS</node>
-            <node x="0.0" y="160.0">CreateSecurityCommand</node>
-            <node x="0.0" y="785.0">sun</node>
-            <node x="0.0" y="635.0">BondV2</node>
-            <node x="116.75" y="400.0">Memento</node>
-            <node x="292.0" y="785.0">Caretaker</node>
-            <node x="193.0" y="160.0">DepositSecurityCommand</node>
-            <node x="471.0" y="710.0">java</node>
-            <node x="161.0" y="710.0">javax</node>
-            <node x="534.0" y="785.0">Test</node>
-            <node x="626.5" y="235.0">CommandCreator</node>
-            <node x="393.0" y="160.0">WithdrawSecurityCommand</node>
-            <node x="0.0" y="710.0">javafx</node>
-            <node x="694.5" y="80.0">UndoCommand</node>
-            <node x="1063.0" y="325.0">WithdrawSecurityCommandCreator</node>
-            <node x="585.0" y="555.0">oracle</node>
-            <node x="622.0" y="710.0">org</node>
-            <node x="21.25" y="555.0">Portfolio</node>
-            <node x="1315.0" y="325.0">UndoCommandCreator</node>
-            <node x="0.0" y="480.0">SecuritiesMemento</node>
-            <node x="172.0" y="325.0">RedoCommandCreator</node>
-            <node x="586.0" y="325.0">CreateSecurityCommandCreator</node>
-            <node x="220.0" y="555.0">META-INF</node>
-            <node x="147.0" y="785.0">jdk</node>
-            <node x="97.0" y="635.0">StockV2</node>
-            <node x="507.5" y="80.0">ShowSecurityCommand</node>
-            <node x="545.0" y="0.0">Command</node>
-            <node x="208.5" y="80.0">UndoableCommand</node>
-            <node x="0.0" y="325.0">ListCommandCreator</node>
-            <node x="838.5" y="80.0">RedoCommand</node>
-            <node x="386.0" y="480.0">StockCreator</node>
-            <node x="511.0" y="480.0">BondCreator</node>
-            <node x="821.0" y="325.0">DepositSecurityCommandCreator</node>
-            <node x="161.0" y="480.0">SecurityQuantityMemento</node>
-            <node x="357.0" y="325.0">ShowSecurityCommandCreator</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="StockV2" target="Portfolio">
-              <point x="0.0" y="-15.0" />
-              <point x="136.0" y="610.0" />
-              <point x="120.25" y="610.0" />
-              <point x="33.0" y="15.0" />
-            </edge>
-            <edge source="RedoCommandCreator" target="CommandCreator">
-              <point x="0.0" y="-15.0" />
-              <point x="254.5" y="295.0" />
-              <point x="655.2142857142857" y="295.0" />
-              <point x="-38.285714285714334" y="15.0" />
-            </edge>
-            <edge source="ListCommand" target="Command">
-              <point x="0.0" y="-15.0" />
-              <point x="432.5" y="60.0" />
-              <point x="572.6" y="60.0" />
-              <point x="-18.399999999999977" y="15.0" />
-            </edge>
-            <edge source="BondCreator" target="SecurityCreator">
-              <point x="0.0" y="-15.0" />
-              <point x="563.0" y="455.0" />
-              <point x="530.25" y="455.0" />
-              <point x="29.5" y="15.0" />
-            </edge>
-            <edge source="CreateSecurityCommand" target="UndoableCommand">
-              <point x="0.0" y="-15.0" />
-              <point x="86.5" y="135.0" />
-              <point x="233.33333333333331" y="135.0" />
-              <point x="-49.66666666666666" y="15.0" />
-            </edge>
-            <edge source="WithdrawSecurityCommand" target="UndoableCommand">
-              <point x="0.0" y="-15.0" />
-              <point x="488.0" y="135.0" />
-              <point x="332.66666666666663" y="135.0" />
-              <point x="49.66666666666663" y="15.0" />
-            </edge>
-            <edge source="UndoCommand" target="Command">
-              <point x="0.0" y="-15.0" />
-              <point x="756.5" y="60.0" />
-              <point x="609.4" y="60.0" />
-              <point x="18.399999999999977" y="15.0" />
-            </edge>
-            <edge source="DepositSecurityCommand" target="UndoableCommand">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="UndoableCommand" target="Command">
-              <point x="0.0" y="-15.0" />
-              <point x="283.0" y="50.0" />
-              <point x="554.2" y="50.0" />
-              <point x="-36.80000000000001" y="15.0" />
-            </edge>
-            <edge source="RedoCommand" target="Command">
-              <point x="0.0" y="-15.0" />
-              <point x="900.0" y="50.0" />
-              <point x="627.8" y="50.0" />
-              <point x="36.799999999999955" y="15.0" />
-            </edge>
-            <edge source="CreateSecurityCommandCreator" target="CommandCreator">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="WithdrawSecurityCommandCreator" target="CommandCreator">
-              <point x="0.0" y="-15.0" />
-              <point x="1179.0" y="295.0" />
-              <point x="731.7857142857142" y="295.0" />
-              <point x="38.28571428571422" y="15.0" />
-            </edge>
-            <edge source="BondV2" target="Portfolio">
-              <point x="0.0" y="-15.0" />
-              <point x="38.5" y="610.0" />
-              <point x="54.25" y="610.0" />
-              <point x="-33.0" y="15.0" />
-            </edge>
-            <edge source="ShowSecurityCommandCreator" target="CommandCreator">
-              <point x="0.0" y="-15.0" />
-              <point x="461.5" y="305.0" />
-              <point x="674.3571428571429" y="305.0" />
-              <point x="-19.14285714285711" y="15.0" />
-            </edge>
-            <edge source="UndoCommandCreator" target="CommandCreator">
-              <point x="0.0" y="-15.0" />
-              <point x="1398.0" y="285.0" />
-              <point x="750.9285714285714" y="285.0" />
-              <point x="57.428571428571445" y="15.0" />
-            </edge>
-            <edge source="ListCommandCreator" target="CommandCreator">
-              <point x="0.0" y="-15.0" />
-              <point x="76.0" y="285.0" />
-              <point x="636.0714285714286" y="285.0" />
-              <point x="-57.428571428571445" y="15.0" />
-            </edge>
-            <edge source="StockCreator" target="SecurityCreator">
-              <point x="0.0" y="-15.0" />
-              <point x="438.5" y="455.0" />
-              <point x="471.25" y="455.0" />
-              <point x="-29.5" y="15.0" />
-            </edge>
-            <edge source="ShowSecurityCommand" target="Command">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="SecuritiesMemento" target="Memento">
-              <point x="0.0" y="-15.0" />
-              <point x="70.5" y="455.0" />
-              <point x="138.75" y="455.0" />
-              <point x="-22.0" y="15.0" />
-            </edge>
-            <edge source="SecurityQuantityMemento" target="Memento">
-              <point x="0.0" y="-15.0" />
-              <point x="251.0" y="455.0" />
-              <point x="182.75" y="455.0" />
-              <point x="22.0" y="15.0" />
-            </edge>
-            <edge source="DepositSecurityCommandCreator" target="CommandCreator">
-              <point x="0.0" y="-15.0" />
-              <point x="932.0" y="305.0" />
-              <point x="712.6428571428571" y="305.0" />
-              <point x="19.14285714285711" y="15.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.8846153846153846" x="35.0" y="263.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CreateSecurityCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -1391,9 +1198,97 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test.java" />
+    <entry file="uml://JAVA/Portfolio">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Portfolio</OriginalElement>
+          <nodes>
+            <node x="" y="">Portfolio.Bond</node>
+            <node x="" y="">Portfolio.Security</node>
+            <node x="" y="">Portfolio.Stock</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="75.0" y="54.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BondV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">com</node>
+            <node x="" y="">netscape</node>
+            <node x="" y="">SecurityCreator</node>
+            <node x="" y="">ListCommand</node>
+            <node x="" y="">ASMS</node>
+            <node x="" y="">toolbarButtonGraphics</node>
+            <node x="" y="">CreateSecurityCommand</node>
+            <node x="" y="">sun</node>
+            <node x="" y="">BondV2</node>
+            <node x="" y="">apple</node>
+            <node x="" y="">Memento</node>
+            <node x="" y="">Caretaker</node>
+            <node x="" y="">DepositSecurityCommand</node>
+            <node x="" y="">java</node>
+            <node x="" y="">javax</node>
+            <node x="" y="">CommandCreator</node>
+            <node x="" y="">WithdrawSecurityCommand</node>
+            <node x="" y="">javafx</node>
+            <node x="" y="">WithdrawSecurityCommandCreator</node>
+            <node x="" y="">UndoCommand</node>
+            <node x="" y="">oracle</node>
+            <node x="" y="">ExitCommand</node>
+            <node x="" y="">org</node>
+            <node x="" y="">Portfolio</node>
+            <node x="" y="">UndoCommandCreator</node>
+            <node x="" y="">SecuritiesMemento</node>
+            <node x="" y="">resources</node>
+            <node x="" y="">RedoCommandCreator</node>
+            <node x="" y="">CreateSecurityCommandCreator</node>
+            <node x="" y="">META-INF</node>
+            <node x="" y="">jdk</node>
+            <node x="" y="">StockV2</node>
+            <node x="" y="">ShowSecurityCommand</node>
+            <node x="" y="">Command</node>
+            <node x="" y="">ExitCommandCreator</node>
+            <node x="" y="">UndoableCommand</node>
+            <node x="" y="">ListCommandCreator</node>
+            <node x="" y="">RedoCommand</node>
+            <node x="" y="">BondCreator</node>
+            <node x="" y="">StockCreator</node>
+            <node x="" y="">DepositSecurityCommandCreator</node>
+            <node x="" y="">SecurityQuantityMemento</node>
+            <node x="" y="">ShowSecurityCommandCreator</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7742779966533054" x="389.17646149866414" y="409.7425001207544" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ASMS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="536">
           <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
