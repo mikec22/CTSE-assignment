@@ -24,7 +24,7 @@ public class ASMS {
         try {
             while (true) {
                 System.out.println("\n\nAdvanced Security Management System\n"
-                        + "Please enter command: [n|s|d|w|c|r|l|q]\n"
+                        + "Please enter command: [n|s|d|w|u|r|l|q]\n"
                         + "n = create security, s = show security, d = deposit security, w = withdraw security,\n"
                         + "u = undo, r = redo, l = list undo/redo, q = exit system\n\n");
                 String commandString = kb.nextLine();
@@ -57,6 +57,7 @@ public class ASMS {
                         commandCreator = null;
                         com = null;
                         System.out.println("Command not found");
+                        continue;
                 }
                 com = commandCreator.createCommand();
                 com.execute();
