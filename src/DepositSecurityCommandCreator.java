@@ -11,6 +11,7 @@ public class DepositSecurityCommandCreator extends CommandCreator {
         this.securities = securities;
     }
 
+    @Override
     public Command createCommand() {
         Scanner kb = new Scanner(System.in);
         Security security = null;

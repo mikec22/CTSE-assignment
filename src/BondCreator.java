@@ -21,6 +21,4 @@ public class BondCreator extends SecurityCreator {
         }
         return new BondV2(code, name, yield);
     }
-
-
 }
