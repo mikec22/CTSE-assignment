@@ -5,7 +5,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.Vector;
 
-public class ASMS {
+public class APMS {
 
     private static AbstractList<Security> securities;
     private static Command com;

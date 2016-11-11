@@ -4,9 +4,9 @@ import java.util.AbstractList;
  * Created by Xuan on 3/11/2016.
  */
 public class ListCommand implements Command {
-    private AbstractList<UndoableCommand> redoList, undoList;
+    private AbstractList<UndoableCommand> undoList, redoList;
 
-    public ListCommand(AbstractList<UndoableCommand> redoList, AbstractList<UndoableCommand> undoList) {
+    public ListCommand(AbstractList<UndoableCommand> undoList, AbstractList<UndoableCommand> redoList) {
         this.redoList = redoList;
         this.undoList = undoList;
     }

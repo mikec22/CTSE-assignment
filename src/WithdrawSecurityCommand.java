@@ -13,7 +13,7 @@ public class WithdrawSecurityCommand extends UndoableCommand {
     public void execute() {
         memento = createMemento();
         security.setQuantity(security.getQuantity() - quantity);
-        System.out.println("Deposit " + quantity + " from " + security.getCode()
+        System.out.println("Withdrew " + quantity + " from " + security.getCode()
                 + ". Current quantity is " + security.getQuantity());
         executed = true;
     }
@@ -32,6 +32,6 @@ public class WithdrawSecurityCommand extends UndoableCommand {
 
     @Override
     public String toString() {
-        return "Withdraw " + quantity + security.getCode();
+        return "Withdraw " + quantity + " " + security.getCode();
     }
 }

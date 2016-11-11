@@ -26,7 +26,7 @@ public class Caretaker {
             redoList.push(undoList.peek());
             return undoList.pop();
         } else {
-            throw new NullPointerException("No Action to be undo");
+            throw new NullPointerException("No Action to be undone");
         }
     }
 
@@ -35,7 +35,7 @@ public class Caretaker {
             undoList.push(redoList.peek());
             return redoList.pop();
         } else {
-            throw new NullPointerException("No Action to be redo");
+            throw new NullPointerException("No Action to be redone");
         }
     }
 
