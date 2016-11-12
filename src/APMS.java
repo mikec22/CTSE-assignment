@@ -51,7 +51,8 @@ public class APMS {
                         commandCreator = new ListCommandCreator(caretaker);
                         break;
                     case "q":
-                        commandCreator = new ExitCommandCreator();
+                        System.out.println("\nLeaving System...\n");
+                        System.exit(0);
                         break;
                     default:
                         commandCreator = null;
