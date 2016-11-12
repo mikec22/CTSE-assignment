@@ -14,21 +14,29 @@ public class ShowSecurityCommand implements Command {
 
     public void execute() {
         if (!securities.isEmpty()) {
-            System.out.println("Security information");
             if (securityCode.equals("##")) {
+                System.out.println("Security information");
                 System.out.printf("%-15s %-30s %-15s %-20s%n", "Code", "Name", "Quantity", "OtherInfo");
                 for (Security security : securities) {
                     System.out.printf("%-15s %-30s %-15s %-20s%n",
                             security.getCode(), security.getName(), security.getQuantity(), security);
                 }
             } else {
-                for (Security security : securities) {
-                    if (security.getCode().equals(securityCode)) {
-                        System.out.println("Code: " + security.getCode()
-                                + "\nName: " + security.getName()
-                                + "\nQuantity: " + security.getQuantity()
-                                + "\n" + security.toString());
+                Security security = null;
+                for (Security s : securities) {
+                    if (s.getCode().equals(securityCode)) {
+                        security = s;
+                        break;
                     }
+                }
+                if (security != null) {
+                    System.out.println("Security information");
+                    System.out.println("Code: " + security.getCode()
+                            + "\nName: " + security.getName()
+                            + "\nQuantity: " + security.getQuantity()
+                            + "\n" + security);
+                } else {
+                    System.out.println("Security not found");
                 }
             }
         } else {

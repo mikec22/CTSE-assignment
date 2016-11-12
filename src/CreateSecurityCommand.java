@@ -6,25 +6,14 @@ public class CreateSecurityCommand extends UndoableCommand {
 
     private AbstractList<Security> securities;
     private Security security;
-    private String type;
 
-    public CreateSecurityCommand(AbstractList<Security> securities, String type) {
+    public CreateSecurityCommand(AbstractList<Security> securities, Security security) {
         this.securities = securities;
-        this.type = type;
+        this.security = security;
     }
 
     @Override
     public void execute() {
-        SecurityCreator sc;
-        if (type.equals("bo")) {
-            sc = new BondCreator();
-        } else if (type.equals("st")) {
-            sc = new StockCreator();
-        } else {
-            System.out.println("Type not found");
-            return;
-        }
-        security = sc.createSecurity();
         for (Security s : securities) {
             if (security.getCode().equals(s.getCode())) {
                 System.out.println("Security already existed");

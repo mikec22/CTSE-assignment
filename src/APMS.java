@@ -5,7 +5,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.Vector;
 
-public class ASMS {
+public class APMS {
 
     private static AbstractList<Security> securities;
     private static Command com;
@@ -51,7 +51,8 @@ public class ASMS {
                         commandCreator = new ListCommandCreator(caretaker);
                         break;
                     case "q":
-                        commandCreator = new ExitCommandCreator();
+                        System.out.println("\nLeaving System...\n");
+                        System.exit(0);
                         break;
                     default:
                         commandCreator = null;
