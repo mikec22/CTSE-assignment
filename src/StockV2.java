@@ -2,7 +2,7 @@ import Portfolio.Stock;
 
 /**
  * This class is for providing show security(Other Info) function.
- * Throught override toString() method.
+ * through override toString() method.
  **/
 
 public class StockV2 extends Stock {

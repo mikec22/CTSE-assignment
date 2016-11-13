@@ -1,7 +1,7 @@
 import Portfolio.Security;
 
 import java.util.Scanner;
-
+//ConcreteFactory
 public class BondCreator extends SecurityCreator {
     @Override
     public Security createSecurity() {
@@ -12,6 +12,7 @@ public class BondCreator extends SecurityCreator {
         String name;
         float yield;
         String[] result = input.split(",");
+        // the result format must equals 3
         if (result.length == 3) {
             code = result[0];
             name = spaceFilter(result[1]);

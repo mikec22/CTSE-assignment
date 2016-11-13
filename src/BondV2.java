@@ -2,7 +2,7 @@ import Portfolio.Bond;
 
 /**
  * This class is for providing show security(Other Info) function.
- * Throught override toString() method.
+ * through override toString() method.
  **/
 
 public class BondV2 extends Bond {

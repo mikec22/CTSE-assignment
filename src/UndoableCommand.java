@@ -1,5 +1,6 @@
 public abstract class UndoableCommand implements Command {
     protected Memento memento;
+    // when the command executed it will turn true
     protected boolean executed;
 
     public UndoableCommand() {

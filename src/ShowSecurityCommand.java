@@ -14,6 +14,7 @@ public class ShowSecurityCommand implements Command {
 
     public void execute() {
         if (!securities.isEmpty()) {
+            //input ## to show all security created
             if (securityCode.equals("##")) {
                 System.out.println("Security information");
                 System.out.printf("%-15s %-30s %-15s %-20s%n", "Code", "Name", "Quantity", "OtherInfo");

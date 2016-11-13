@@ -2,7 +2,7 @@ import Portfolio.Security;
 
 import java.util.AbstractList;
 import java.util.Scanner;
-
+//ConcreteFactory
 public class DepositSecurityCommandCreator extends CommandCreator {
 
     private AbstractList<Security> securities;

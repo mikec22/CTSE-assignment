@@ -12,10 +12,12 @@ public class Caretaker {
         redoList = new Stack();
     }
 
+    //this method for adding executed command
     public void addExecutedCommand(Command executedCommand) {
         if (executedCommand instanceof UndoableCommand) {
             if (((UndoableCommand) executedCommand).isExecuted()) {
                 undoList.push((UndoableCommand) executedCommand);
+                // when a command added the redoList must clear
                 redoList.clear();
             }
         }
@@ -23,6 +25,7 @@ public class Caretaker {
 
     public UndoableCommand popUndoCommand() {
         if (!undoList.empty()) {
+            //undo command at the same time push the command to redo.
             redoList.push(undoList.peek());
             return undoList.pop();
         } else {
@@ -32,6 +35,7 @@ public class Caretaker {
 
     public UndoableCommand popRedoCommand() {
         if (!redoList.empty()) {
+            //redo command at the same time push the command to undo.
             undoList.push(redoList.peek());
             return redoList.pop();
         } else {

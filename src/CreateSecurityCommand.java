@@ -6,10 +6,12 @@ public class CreateSecurityCommand extends UndoableCommand {
 
     private AbstractList<Security> securities;
     private Security security;
+    private boolean added;
 
     public CreateSecurityCommand(AbstractList<Security> securities, Security security) {
         this.securities = securities;
         this.security = security;
+        added = false;
     }
 
     @Override
@@ -22,18 +24,24 @@ public class CreateSecurityCommand extends UndoableCommand {
         }
         securities.add(security);
         System.out.println("New security record created.");
+        added = true;
         executed = true;
-        memento = createMemento();
     }
 
     @Override
     public void undo() {
-        memento.restore();
+        if (added) {
+            securities.remove(security);
+            added = false;
+        } else {
+            securities.add(security);
+            added = true;
+        }
     }
 
     @Override
     protected Memento createMemento() {
-        return new SecuritiesMemento(securities);
+        return null;
     }
 
     @Override

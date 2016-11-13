@@ -20,6 +20,7 @@ public class WithdrawSecurityCommand extends UndoableCommand {
 
     @Override
     public void undo() {
+        //save the state before undo and redo
         Memento temp = createMemento();
         memento.restore();
         memento = temp;

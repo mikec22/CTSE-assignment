@@ -5,6 +5,7 @@ import Portfolio.Security;
  */
 public class SecurityQuantityMemento implements Memento {
     private Security security;
+    // state
     private int quantityState;
 
     public SecurityQuantityMemento(Security security) {
